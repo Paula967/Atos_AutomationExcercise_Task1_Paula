@@ -15,7 +15,7 @@ public class ContactUsTest extends BaseTest{
         contactUsPage=new ContactUsPage();
     }
     @DataProvider
-    public Iterator<Object[]> getData() throws IOException {
+    public Iterator<Object[]> getData() throws Exception {
         return DataProviderUtils.getData("src/test/resources/SearchTestData.json");
     }
     @Test(dataProvider = "getData")

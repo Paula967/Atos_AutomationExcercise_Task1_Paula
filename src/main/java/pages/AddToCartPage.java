@@ -28,8 +28,9 @@ public class AddToCartPage {
             this.driver = DriverManager.getDriver();
         }
 
-        public AddToCartPage setProductQuantity(int quantity) {
-            ElementHelper.sendText(driver, quantityInput, String.valueOf(quantity));
+        public AddToCartPage setProductQuantity(Double quantity) {
+            int intQuantity = quantity.intValue();
+            ElementHelper.sendText(driver, quantityInput, String.valueOf(intQuantity));
             return this;
         }
 
@@ -58,40 +59,42 @@ public class AddToCartPage {
             return this;
         }
 
-        public String getCartProductName(int index) {
-            return ElementHelper.getElementTextByIndex(driver,cartProductNames,index);
+        public String getCartProductName(Double index) {
+            int intIndex = index.intValue();
+            return ElementHelper.getElementTextByIndex(driver,cartProductNames,intIndex);
         }
 
-        public int getCartProductQuantity(int index) {
-            return Integer.parseInt(ElementHelper.getElementTextByIndex(driver,cartProductQuantities,index));
+        public int getCartProductQuantity(Double index) {
+            int intIndex = index.intValue();
+            return Integer.parseInt(ElementHelper.getElementTextByIndex(driver,cartProductQuantities,intIndex));
         }
 
-        public double getCartProductPrice(int index) {
-            return Double.parseDouble(ElementHelper.getElementTextByIndex(driver,cartProductPrices,index).replace("Rs. ", ""));
+        public double getCartProductPrice(Double index) {
+            int intIndex = index.intValue();
+            return Double.parseDouble(ElementHelper.getElementTextByIndex(driver,cartProductPrices,intIndex).replace("Rs. ", ""));
         }
 
-        public double getCartTotalAmount(int index) {
-            return Double.parseDouble(ElementHelper.getElementTextByIndex(driver,cartTotalAmount,index).replace("[^0-9.]", ""));
+        public double getCartTotalAmount(Double index) {
+            int intIndex = index.intValue();
+            return Double.parseDouble(ElementHelper.getElementTextByIndex(driver,cartTotalAmount,intIndex).replace("Rs. ", ""));
         }
-        public AddToCartPage assertProductNamesByIndex(int index,String ExpectedName){
+        public AddToCartPage assertProductNamesByIndex(Double index,String ExpectedName){
             AssertionHelper.assertEqual(getCartProductName(index),ExpectedName);
             return this;
         }
-        public AddToCartPage assertProductQuantitiesByIndex(int index,int ExpectedQuantity){
-            AssertionHelper.assertEqual(getCartProductQuantity(index),ExpectedQuantity);
+        public AddToCartPage assertProductQuantitiesByIndex(Double index,Double ExpectedQuantity){
+            int intExpectedQuantity = ExpectedQuantity.intValue();
+            AssertionHelper.assertEqual(getCartProductQuantity(index),intExpectedQuantity);
             return this;
         }
-        public AddToCartPage assertProductPricesByIndex(int index,double ExpectedPrice){
+        public AddToCartPage assertProductPricesByIndex(Double index,Double ExpectedPrice){
             AssertionHelper.assertEqual(getCartProductPrice(index),ExpectedPrice);
             return this;
         }
-        public AddToCartPage assertTotalAmountByIndex(int index){
+        public AddToCartPage assertTotalAmountByIndex(Double index){
             //TotalAmount for Every Product = Price * Quantity
             double ExpectedtotalAmount= getCartProductPrice(index) * getCartProductQuantity(index);
             AssertionHelper.assertEqual(getCartTotalAmount(index),ExpectedtotalAmount);
             return this;
         }
-
     }
-
-

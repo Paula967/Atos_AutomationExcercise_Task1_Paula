@@ -136,7 +136,7 @@ public class ElementHelper {
 
     }
     public static String getElementTextByIndex(WebDriver driver,By locator,int index){
-      return findElements(driver,locator).get(index-1).getText();
+      return findElements(driver,locator).get((index-1)).getText();
     }
     public static  String getCurrentUrl(WebDriver driver){
         return driver.getCurrentUrl();}

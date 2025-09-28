@@ -21,18 +21,11 @@ public class AddToCartPageTest extends BaseTest{
     }
     @Test(dataProvider = "getData")
     public void testAddToCartAndVerify
-                (String productName_A ,String productPrice_A,String productQty_A,String productIndex_A,
-                 String productName_B,String productPrice_B,String productQty_B ,String productIndex_B) {
+                (String productName_A,Double productPrice_A,Double productQty_A,Double productIndex_A,
+                 String productName_B,Double productPrice_B,Double productQty_B,Double productIndex_B) {
 
-        double p1 = Double.parseDouble(productPrice_A);
-        int quantity1 = Integer.parseInt(productQty_A);
-        int index1 = Integer.parseInt(productIndex_A);
-
-        double p2 = Double.parseDouble(productPrice_B);
-        int quantity2 = Integer.parseInt(productQty_B);
-        int index2 = Integer.parseInt(productIndex_B);
             //Product A
-             cartPage.setProductQuantity(quantity1)
+             cartPage.setProductQuantity(productQty_A)
                      .clickAddToCart()
                      .assertSuccessMessageDisplayed()
                      .continueShopping();
@@ -42,16 +35,16 @@ public class AddToCartPageTest extends BaseTest{
                      .goToCart();
 
              //Assert On ProductA InCart
-            cartPage.assertProductNamesByIndex(index1,productName_A)
-                    .assertProductQuantitiesByIndex(index1,quantity1)
-                    .assertProductPricesByIndex(index1,p1)
-                    .assertTotalAmountByIndex(index1);
+            cartPage.assertProductNamesByIndex(productIndex_A,productName_A)
+                    .assertProductQuantitiesByIndex(productIndex_A,productQty_A)
+                    .assertProductPricesByIndex(productIndex_A,productPrice_A)
+                    .assertTotalAmountByIndex(productIndex_A);
 
             //Assert On ProductB InCart
-            cartPage.assertProductNamesByIndex(index2,productName_B)
-                    .assertProductQuantitiesByIndex(index2,quantity2)
-                    .assertProductPricesByIndex(index2,p2)
-                    .assertTotalAmountByIndex(index2);
+            cartPage.assertProductNamesByIndex(productIndex_B,productName_B)
+                    .assertProductQuantitiesByIndex(productIndex_B,productQty_B)
+                    .assertProductPricesByIndex(productIndex_B,productPrice_B)
+                    .assertTotalAmountByIndex(productIndex_B);
         }
     }
 
