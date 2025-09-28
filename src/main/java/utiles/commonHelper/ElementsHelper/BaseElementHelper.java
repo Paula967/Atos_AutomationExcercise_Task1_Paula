@@ -37,9 +37,7 @@ public class BaseElementHelper {
     public static void click(WebDriver driver, By locator) {
         WaitHelper.waitForClickable(driver, locator).click();
     }
-    public static void clickOnCommonButtonByIndex(WebDriver driver,int index, String text){
-        findElementByIndex(driver,index,text).click();
-    }
+
     public static void clickOnAcceptAlert(WebDriver driver){
         driver.switchTo().alert().accept();
     }
@@ -48,10 +46,6 @@ public class BaseElementHelper {
         WebElement element = WaitHelper.waitForVisibility(driver, locator);
         element.clear();
         element.sendKeys(text);
-    }
-
-    public static void clearInput(WebDriver driver, By locator) {
-        WaitHelper.waitForVisibility(driver, locator).clear();
     }
 
     public static String getText(WebDriver driver, By locator) {
