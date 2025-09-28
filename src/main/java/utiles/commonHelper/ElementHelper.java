@@ -34,6 +34,10 @@ public class ElementHelper {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(waitingTime));
         return wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(Locator));
     }
+    public static Boolean waitForTextToBePresent(WebDriver driver, By locator, String text) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(waitingTime));
+        return wait.until(ExpectedConditions.textToBePresentInElementLocated(locator, text));
+    }
 
     public static void waitForInvisibility(WebDriver driver, By locator) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(waitingTime));
@@ -149,6 +153,13 @@ public class ElementHelper {
     public static boolean isElementDisplayed(WebDriver driver, By locator) {
         try {
             return waitForVisibility(driver, locator).isDisplayed();
+        } catch (TimeoutException | NoSuchElementException e) {
+            return false;
+        }
+    }
+    public static boolean isTextPresentInElement(WebDriver driver, By locator, String text) {
+        try {
+            return waitForTextToBePresent(driver, locator, text);
         } catch (TimeoutException | NoSuchElementException e) {
             return false;
         }

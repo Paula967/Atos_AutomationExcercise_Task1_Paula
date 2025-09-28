@@ -17,6 +17,14 @@ public class AssertionHelper {
             Assert.fail("❌ Element not found: " + locator);
         }
     }
+    public static void assertTextPresent(WebDriver driver, By locator,String text) {
+        try {
+            boolean isDisplayed =ElementHelper.isTextPresentInElement(driver,locator,text);
+            Assert.assertTrue(isDisplayed, "❌ Text not displayed: " + text);
+        } catch (NoSuchElementException e) {
+            Assert.fail("❌ Element not found: " + locator);
+        }
+    }
     // Assert current URL matches expected URL
     public static void assertUrl(WebDriver driver, String expectedUrl) {
         String actualUrl = ElementHelper.getCurrentUrl(driver);

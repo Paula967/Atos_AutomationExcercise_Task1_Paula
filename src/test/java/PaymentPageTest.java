@@ -20,10 +20,9 @@ public class PaymentPageTest extends BaseTest {
     @Test(dataProvider = "getData")
     public void paymentTest(String name, String creditNum, String cvc, String month,String year) {
 
-        String msg=paymentPage.enterCreditCardDetails(name, creditNum, cvc, month, year)
+        paymentPage.enterCreditCardDetails(name, creditNum, cvc, month, year)
                 .clickPayAndConfirmOrderButton()
                 .getMessage();
-        System.out.println("Your Message IS"+msg);
 
     }
 }

@@ -3,7 +3,6 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/Paul/IdeaProjects/Atos_AutomationExcercise_Task1_Paula">
         <classes>
-
             <class name="SignUpTest">
                 <methods>
                     <include name="signupHappyPathFlow">
@@ -46,7 +45,7 @@
                 </include>
             </methods>
         </class>
-            <!--<class name="ContactUsTest">
+            <class name="ContactUsTest">
                 <methods>
                     <include name="contactUs">
                     </include>
@@ -59,17 +58,5 @@
             </methods>
         </class>
         </classes>
-    <-</test>
-        <test name="Signin">
-            <classes>
-                <class name="SignInTest">
-                    <methods>
-                        <include name="SignIn">
-                        </include>
-                    </methods>
-                </class>-->
-
-        </classes>
-
     </test>
 </suite>

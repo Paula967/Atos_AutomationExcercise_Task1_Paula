@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utiles.DriverMange.DriverManager;
+import utiles.commonHelper.AssertionHelper;
 import utiles.commonHelper.ElementHelper;
 
 public class PaymentPage {
@@ -17,7 +18,7 @@ public class PaymentPage {
     By expiryMonth= By.cssSelector("input[name='expiry_month']");
     By expiryYear= By.cssSelector("input[name='expiry_year']");
     By payAndConfirmOrderButton= By.id("submit");
-    By orderMessage=By.cssSelector("div[id='success_message'] div[class='alert-success alert']");
+    By orderMessage=By.cssSelector("h2[data-qa='order-placed'] b");
 
     //Constructor
     public PaymentPage() {
@@ -34,10 +35,10 @@ public class PaymentPage {
         return this;
     }
     public PaymentPage clickPayAndConfirmOrderButton(){
-        ElementHelper.click(driver,payAndConfirmOrderButton);
+        ElementHelper.jsClick(driver,payAndConfirmOrderButton);
         return this;
     }
-    public String getMessage(){
-        return ElementHelper.getText(driver,orderMessage);
+    public void getMessage(){
+       AssertionHelper.assertElementPresent(driver,orderMessage);
     }
 }
