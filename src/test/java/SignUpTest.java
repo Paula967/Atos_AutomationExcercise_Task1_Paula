@@ -18,7 +18,7 @@ public class SignUpTest extends  BaseTest {
         Home= new HomePage();
         signupPage=new SignupPage();
     }
-    @Test(dataProvider = "jsonDataProvider", dataProviderClass = DataProviderUtils.class)
+    @Test(dataProvider = "jsonDataProvider", dataProviderClass = DataProviderUtils.class,testName = "Signup Happy Path Flow")
     @JsonFile("src/test/resources/SignupTestData.json")
     public  void signupHappyPathFlow (String Name,String Gender,String Day,String Month,String Year,
                                       String FirstName,String Last,

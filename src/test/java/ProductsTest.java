@@ -17,7 +17,7 @@ public class ProductsTest extends BaseTest{
         Home =new HomePage();
         productsPage=new ProductsPage();
     }
-    @Test(dataProvider = "jsonDataProvider", dataProviderClass = DataProviderUtils.class)
+    @Test(dataProvider = "jsonDataProvider", dataProviderClass = DataProviderUtils.class,testName = "Products Search Test and View")
     @JsonFile("src/test/resources/SearchTestData.json")
     public void products(String product){
         productsPage=Home

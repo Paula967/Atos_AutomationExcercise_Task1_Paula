@@ -14,7 +14,7 @@ public class LogOutTest extends BaseTest {
         logOutPage =new LogOutPage();
         signinPage=new SigninPage();
     }
-    @Test
+    @Test(testName = "LogOut Happy Path Flow")
     public void LogOut(){
         logOutPage
                 .clickOnLogOutButton()

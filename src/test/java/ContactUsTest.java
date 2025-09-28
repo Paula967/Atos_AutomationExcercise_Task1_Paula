@@ -14,7 +14,7 @@ public class ContactUsTest extends BaseTest{
     public  void setUp(){
         contactUsPage=new ContactUsPage();
     }
-    @Test(dataProvider = "jsonDataProvider", dataProviderClass = DataProviderUtils.class)
+    @Test(dataProvider = "jsonDataProvider", dataProviderClass = DataProviderUtils.class,testName = "Contact Us Form Test")
     @JsonFile("src/test/resources/SearchTestData.json")
     public void contactUs(String Name){
         contactUsPage

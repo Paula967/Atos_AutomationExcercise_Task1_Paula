@@ -16,7 +16,7 @@ public class SignInTest  extends  BaseTest{
         Home =new HomePage();
         SigninPage=new SigninPage();
     }
-    @Test
+    @Test(testName = "SignIn Happy Path Flow")
     public void SignIn(){
         Home.clickOnSignInUpLink();
         SigninPage.EnterLoginEmail().enterLoginPassword().clickOnLoginBtn();

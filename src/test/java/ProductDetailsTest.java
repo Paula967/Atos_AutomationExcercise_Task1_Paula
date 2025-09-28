@@ -14,7 +14,7 @@ public class ProductDetailsTest extends BaseTest{
         productDetailsPage=new ProductDetailsPage();
     }
 
-    @Test()
+    @Test(testName = "Product Details Verification")
     public void productDetails(){
         productDetailsPage
                 .assertProductNameIsDisplayed()

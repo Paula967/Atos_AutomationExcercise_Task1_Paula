@@ -19,7 +19,7 @@ public class CheckOutPageTest extends BaseTest{
         checkOutPage= new CheckOutPage();
         addToCartPage= new AddToCartPage();
     }
-    @Test(dataProvider = "jsonDataProvider", dataProviderClass = DataProviderUtils.class)
+    @Test(dataProvider = "jsonDataProvider", dataProviderClass = DataProviderUtils.class,testName = "Verify Delivery Address And Place Order")
     @JsonFile("src/test/resources/AddressTestData.json")
     public void testVerifyDeliveryAddressAndPlaceOrder(String address, String city, String state, String postCode) {
         checkOutPage=addToCartPage.clickOnProceedToCheckOut();

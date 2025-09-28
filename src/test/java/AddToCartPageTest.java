@@ -16,7 +16,7 @@ public class AddToCartPageTest extends BaseTest{
     public void setUp(){
         cartPage= new AddToCartPage();
     }
-    @Test(dataProvider = "jsonDataProvider", dataProviderClass = DataProviderUtils.class)
+    @Test(dataProvider = "jsonDataProvider", dataProviderClass = DataProviderUtils.class,testName = "Add To Cart And Verify In Cart")
     @JsonFile("src/test/resources/ProductsAddedToCartTestData.json")
     public void testAddToCartAndVerify
                 (String productName_A,Double productPrice_A,Double productQty_A,Double productIndex_A,

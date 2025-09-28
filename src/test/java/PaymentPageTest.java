@@ -14,7 +14,7 @@ public class PaymentPageTest extends BaseTest {
     public void setUp(){
         paymentPage=new PaymentPage();
     }
-    @Test(dataProvider = "jsonDataProvider", dataProviderClass = DataProviderUtils.class)
+    @Test(dataProvider = "jsonDataProvider", dataProviderClass = DataProviderUtils.class,testName = "Payment with Credit Card Test")
     @JsonFile("src/test/resources/CreditCardTestData.json")
     public void paymentTest(String name, String creditNum, String cvc, String month,String year) {
 
