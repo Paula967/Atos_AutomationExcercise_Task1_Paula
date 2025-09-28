@@ -13,10 +13,10 @@ public class ProductsPage {
     WebDriver driver;
 
     //Locators
-    By productsItem=By.cssSelector(".features_items > .col-sm-4");
-    By searchProductText=By.id("search_product");
-    By searchButton=By.id("submit_search");
-    By resultProducts=By.cssSelector(".productinfo p");
+    private final By productsItem=By.cssSelector(".features_items > .col-sm-4");
+    private final By searchProductText=By.id("search_product");
+    private final By searchButton=By.id("submit_search");
+    private final By resultProducts=By.cssSelector(".productinfo p");
     //By viewProduct=By.xpath("//*[text()='View Product']");
 
     //Constructor

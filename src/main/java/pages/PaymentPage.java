@@ -13,13 +13,14 @@ public class PaymentPage {
     WebDriver driver;
 
     //Locators
-    By nameOnCard= By.cssSelector("input[name='name_on_card']");
-    By cardNumber= By.cssSelector("input[name='card_number']");
-    By cvc= By.cssSelector("input[name='cvc']");
-    By expiryMonth= By.cssSelector("input[name='expiry_month']");
-    By expiryYear= By.cssSelector("input[name='expiry_year']");
-    By payAndConfirmOrderButton= By.id("submit");
-    By orderMessage=By.cssSelector("h2[data-qa='order-placed'] b");
+    private final By nameOnCard = By.cssSelector("input[name='name_on_card']");
+    private final By cardNumber = By.cssSelector("input[name='card_number']");
+    private final By cvc = By.cssSelector("input[name='cvc']");
+    private final By expiryMonth = By.cssSelector("input[name='expiry_month']");
+    private final By expiryYear = By.cssSelector("input[name='expiry_year']");
+    private final By payAndConfirmOrderButton = By.id("submit");
+    private final By orderMessage = By.cssSelector("h2[data-qa='order-placed'] b");
+
 
     //Constructor
     public PaymentPage() {

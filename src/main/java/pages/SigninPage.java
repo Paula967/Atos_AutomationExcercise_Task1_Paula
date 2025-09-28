@@ -11,9 +11,11 @@ public class SigninPage {
 
     WebDriver driver;
     Global global;
-    By LoginEmail =By.xpath("//input[@data-qa='login-email']");
-    By  LoginPassword=By.xpath("//input[@data-qa='login-password']");
-    By LoginButton =By.xpath("//button[@data-qa='login-button']");
+    private final By LoginEmail =By.xpath("//input[@data-qa='login-email']");
+    private final By  LoginPassword=By.xpath("//input[@data-qa='login-password']");
+    private final By LoginButton =By.xpath("//button[@data-qa='login-button']");
+
+    //Constructor
     public  SigninPage( ){
         this.driver= DriverManager.getDriver();
         global= Global.getInstance();

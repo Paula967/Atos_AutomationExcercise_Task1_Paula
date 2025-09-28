@@ -33,7 +33,7 @@ public class AddToCartPageTest extends BaseTest{
                      .goToCart();
 
              //Assert On ProductA InCart
-            cartPage.assertProductNamesByIndex(productIndex_A,productName_A)
+            cartPage.assertProductNamesByIndex((productIndex_A),productName_A)
                     .assertProductQuantitiesByIndex(productIndex_A,productQty_A)
                     .assertProductPricesByIndex(productIndex_A,productPrice_A)
                     .assertTotalAmountByIndex(productIndex_A);

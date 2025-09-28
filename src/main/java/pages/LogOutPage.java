@@ -11,7 +11,7 @@ public class LogOutPage {
     WebDriver driver;
 
     //Locators
-    By logoutLink = By.cssSelector("a[href='/logout']");
+    private final By logoutLink = By.cssSelector("a[href='/logout']");
 
     //Constructor
     public LogOutPage() {

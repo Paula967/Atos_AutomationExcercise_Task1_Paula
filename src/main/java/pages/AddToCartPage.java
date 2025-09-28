@@ -11,20 +11,18 @@ public class AddToCartPage {
         WebDriver driver;
 
         // Locators
-        By quantityInput = By.cssSelector("input[name='quantity']");
-        By addToCartButton = By.cssSelector(".cart");
-        By successMessage = By.cssSelector(".modal-body p:first-child");
-        //By cartBadge = By.cssSelector(".cart-count");
-        By continueShoppingButton=By.cssSelector(".btn-block");
-        By productsLink=By.cssSelector("a[href='/products']");
-        //Add First Product in Products Page => Product B
-        By addToCartOnProductsPage=By.xpath("(//*[contains(text(),'Add to cart')])[1]");
-        By viewCartButton = By.xpath("//u[normalize-space()='View Cart']/..");
-        By cartProductNames = By.cssSelector("tbody h4");
-        By cartProductQuantities = By.cssSelector("td button");
-        By cartProductPrices = By.cssSelector(".cart_price");
-        By cartTotalAmount = By.cssSelector(".cart_total_price");
-        By proceedToCheckOutButton=By.cssSelector(".check_out");
+        private final By quantityInput = By.cssSelector("input[name='quantity']");
+        private final By addToCartButton = By.cssSelector(".cart");
+        private final By successMessage = By.cssSelector(".modal-body p:first-child");
+        private final By continueShoppingButton = By.cssSelector(".btn-block");
+        private final By productsLink = By.cssSelector("a[href='/products']");
+        private final By addToCartOnProductsPage = By.xpath("(//*[contains(text(),'Add to cart')])[1]");
+        private final By viewCartButton = By.xpath("//u[normalize-space()='View Cart']/..");
+        private final By cartProductNames = By.cssSelector("tbody h4");
+        private final By cartProductQuantities = By.cssSelector("td button");
+        private final By cartProductPrices = By.cssSelector(".cart_price");
+        private final By cartTotalAmount = By.cssSelector(".cart_total_price");
+        private final By proceedToCheckOutButton = By.cssSelector(".check_out");
 
         public AddToCartPage() {
             this.driver = DriverManager.getDriver();

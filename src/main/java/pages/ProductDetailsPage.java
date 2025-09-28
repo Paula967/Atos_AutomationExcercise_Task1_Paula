@@ -10,9 +10,9 @@ public class ProductDetailsPage {
     WebDriver driver;
 
     //Locators
-    By productName=By.cssSelector(".product-information h2");
-    By productCategory=By.xpath("//p[contains(text(), 'Category')]");
-    By productPrice=By.cssSelector("div[class='product-information'] span span");
+    private final By productName=By.cssSelector(".product-information h2");
+    private final By productCategory=By.xpath("//p[contains(text(), 'Category')]");
+    private final By productPrice=By.cssSelector("div[class='product-information'] span span");
 
 
     //Constructor

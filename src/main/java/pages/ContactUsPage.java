@@ -14,13 +14,14 @@ public class ContactUsPage {
     Global global;
 
     //Locators
-    By contactUsLink=By.cssSelector("a[href='/contact_us']");
-    By nameText= By.cssSelector("input[placeholder='Name']");
-    By emailText=By.cssSelector("input[placeholder='Email']");
-    By subjectText=By.cssSelector("input[placeholder='Subject']");
-    By message=By.cssSelector("textarea[placeholder='Your Message Here']");
-    By submitButton=By.cssSelector("input[value='Submit']");
-    By resultMessage=By.cssSelector(".alert-success");
+    private final By contactUsLink = By.cssSelector("a[href='/contact_us']");
+    private final By nameText = By.cssSelector("input[placeholder='Name']");
+    private final By emailText = By.cssSelector("input[placeholder='Email']");
+    private final By subjectText = By.cssSelector("input[placeholder='Subject']");
+    private final By message = By.cssSelector("textarea[placeholder='Your Message Here']");
+    private final By submitButton = By.cssSelector("input[value='Submit']");
+    private final By resultMessage = By.cssSelector(".alert-success");
+
 
     //Constructor
     public ContactUsPage() {

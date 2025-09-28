@@ -13,9 +13,9 @@ public class CheckOutPage {
     WebDriver driver;
 
     //Locators
-    By deliveryAddress= By.cssSelector("ul[id='address_delivery'] li:nth-child(4)");
-    By city_State_PostCode=By.cssSelector("ul[id='address_delivery'] li[class='address_city address_state_name address_postcode']");
-    By placeOrderButton=By.cssSelector(".btn.btn-default.check_out");
+    private final By deliveryAddress= By.cssSelector("ul[id='address_delivery'] li:nth-child(4)");
+    private final By city_State_PostCode=By.cssSelector("ul[id='address_delivery'] li[class='address_city address_state_name address_postcode']");
+    private final By placeOrderButton=By.cssSelector(".btn.btn-default.check_out");
 
     //Constructor
     public CheckOutPage() {

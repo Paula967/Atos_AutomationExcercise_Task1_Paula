@@ -11,8 +11,8 @@ public class HomePage {
     WebDriver driver;
 
     //Locators
-    By SignInUp = By.linkText("Signup / Login");
-    By productsLink=By.cssSelector("a[href='/products']");
+    private final By SignInUp = By.linkText("Signup / Login");
+    private final By productsLink=By.cssSelector("a[href='/products']");
 
     //Constructor
 public HomePage() {
