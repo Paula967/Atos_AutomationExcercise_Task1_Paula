@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Paul/IdeaProjects/Atos_AutomationExcercise_Task1_Paula">
+        <classes>
+
+            <class name="SignUpTest">
+                <methods>
+                    <include name="signupHappyPathFlow">
+                    </include>
+                </methods>
+            </class>
+            <class name="SignInTest">
+                <methods>
+                    <include name="SignIn">
+                    </include>
+                </methods>
+            </class>
+            <class name="ProductsTest">
+                <methods>
+                    <include name="products">
+                    </include>
+                </methods>
+            </class>
+            <class name="ProductDetailsTest">
+                <methods>
+                    <include name="productDetails">
+                    </include>
+                </methods>
+            </class>
+            <class name="AddToCartPageTest">
+                <methods>
+                    <include name="testAddToCartAndVerify">
+                    </include>
+                </methods>
+            </class>
+            <!--<class name="ContactUsTest">
+                <methods>
+                    <include name="contactUs">
+                    </include>
+                </methods>
+            </class>
+        <class name="LogOutTest">
+            <methods>
+                <include name="LogOut">
+                </include>
+            </methods>
+        </class>
+        </classes>
+    <-</test>
+        <test name="Signin">
+            <classes>
+                <class name="SignInTest">
+                    <methods>
+                        <include name="SignIn">
+                        </include>
+                    </methods>
+                </class>-->
+
+        </classes>
+
+    </test>
+</suite>
