@@ -3,8 +3,9 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utiles.DriverMange.DriverManager;
-import utiles.commonHelper.AssertionHelper;
-import utiles.commonHelper.ElementHelper;
+import utiles.commonHelper.ElementsHelper.AssertionHelper;
+import utiles.commonHelper.ElementsHelper.BaseElementHelper;
+import utiles.commonHelper.ElementsHelper.JavaScriptHelper;
 
 public class PaymentPage {
 
@@ -27,15 +28,15 @@ public class PaymentPage {
 
     //Actions
     public PaymentPage enterCreditCardDetails(String name, String number, String cvc,String month, String year){
-        ElementHelper.sendText(driver,nameOnCard,name);
-        ElementHelper.sendText(driver,cardNumber,number);
-        ElementHelper.sendText(driver,this.cvc,cvc);
-        ElementHelper.sendText(driver,expiryMonth,month);
-        ElementHelper.sendText(driver,expiryYear,year);
+        BaseElementHelper.sendText(driver,nameOnCard,name);
+        BaseElementHelper.sendText(driver,cardNumber,number);
+        BaseElementHelper.sendText(driver,this.cvc,cvc);
+        BaseElementHelper.sendText(driver,expiryMonth,month);
+        BaseElementHelper.sendText(driver,expiryYear,year);
         return this;
     }
     public PaymentPage clickPayAndConfirmOrderButton(){
-        ElementHelper.jsClick(driver,payAndConfirmOrderButton);
+        JavaScriptHelper.jsClickAfterScroll(driver,payAndConfirmOrderButton);
         return this;
     }
     public void getMessage(){

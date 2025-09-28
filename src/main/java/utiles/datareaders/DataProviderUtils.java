@@ -1,8 +1,13 @@
 package utiles.datareaders;
 
+import org.testng.annotations.DataProvider;
+
 import java.io.IOException;
+import java.lang.reflect.Method;
 import java.util.Iterator;
 import java.util.Locale;
+
+import static utiles.datareaders.JSONReaderUtil.readJson;
 
 public class DataProviderUtils {
 
@@ -13,9 +18,17 @@ public class DataProviderUtils {
         } else if (lowerPath.endsWith(".xlsx")) {
             return ExcelReaderUtil.readExcel(filePath);
         } else if (lowerPath.endsWith(".json")) {
-            return JSONReaderUtil.readJson(filePath);
+            return readJson(filePath);
         } else {
             throw new IllegalArgumentException("Unsupported file format: " + filePath);
         }
+    }
+    @DataProvider(name = "jsonDataProvider")
+    public static Iterator<Object[]> getDataFromFile(Method method) throws IOException {
+        JsonFile fileAnnotation = method.getAnnotation(JsonFile.class);
+        if (fileAnnotation == null) {
+            throw new RuntimeException("Please annotate your test method with @JsonFile to specify the JSON path.");
+        }
+        return readJson(fileAnnotation.value());
     }
 }

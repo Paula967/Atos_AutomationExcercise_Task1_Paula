@@ -3,8 +3,9 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utiles.DriverMange.DriverManager;
-import utiles.commonHelper.AssertionHelper;
-import utiles.commonHelper.ElementHelper;
+import utiles.commonHelper.ElementsHelper.AssertionHelper;
+import utiles.commonHelper.ElementsHelper.BaseElementHelper;
+import utiles.commonHelper.ElementsHelper.JavaScriptHelper;
 
 public class ProductsPage {
 
@@ -29,15 +30,15 @@ public class ProductsPage {
         return this;
     }
     public ProductsPage searchForProduct(String Product){
-        ElementHelper.sendText(driver,searchProductText,Product);
+        BaseElementHelper.sendText(driver,searchProductText,Product);
         return this;
     }
     public ProductsPage clickOnSearchButton(){
-        ElementHelper.click(driver,searchButton);
+        BaseElementHelper.click(driver,searchButton);
         return this;
     }
     public ProductDetailsPage viewOneProduct(){
-        ElementHelper.jsClickOnElementByIndex(driver,2,"View Product");
+        JavaScriptHelper.jsClickOnElementByIndex(driver,2,"View Product");
         return new ProductDetailsPage();
     }
     public ProductsPage verifyMatchingProductResult(String Product){

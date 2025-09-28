@@ -3,7 +3,7 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utiles.DriverMange.DriverManager;
-import utiles.commonHelper.ElementHelper;
+import utiles.commonHelper.ElementsHelper.BaseElementHelper;
 
 public class HomePage {
 
@@ -21,11 +21,11 @@ public HomePage() {
 
     //Actions
     public void clickOnSignInUpLink() {
-        ElementHelper.click(driver,SignInUp);
+        BaseElementHelper.click(driver,SignInUp);
     }
 
     public ProductsPage clickOnProductsLink(){
-    ElementHelper.click(driver,productsLink);
+    BaseElementHelper.click(driver,productsLink);
     return new ProductsPage();
     }
 }

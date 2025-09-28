@@ -1,14 +1,13 @@
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
+
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.SignupPage;
 import utiles.ExtentReports.ExtentReportListener;
 import utiles.datareaders.DataProviderUtils;
+import utiles.datareaders.JsonFile;
 
-import java.io.IOException;
-import java.util.Iterator;
 @Listeners(ExtentReportListener.class)
 public class SignUpTest extends  BaseTest {
     HomePage Home ;
@@ -19,11 +18,8 @@ public class SignUpTest extends  BaseTest {
         Home= new HomePage();
         signupPage=new SignupPage();
     }
- @DataProvider
- public Iterator<Object[]> getData() throws IOException {
-        return DataProviderUtils.getData("src/test/resources/SignupTestData.json");
- }
-    @Test(testName = "Signup", groups = "regression",dataProvider = "getData")
+    @Test(dataProvider = "jsonDataProvider", dataProviderClass = DataProviderUtils.class)
+    @JsonFile("src/test/resources/SignupTestData.json")
     public  void signupHappyPathFlow (String Name,String Gender,String Day,String Month,String Year,
                                       String FirstName,String Last,
                                       String Address,String Country,String State ,String City,String ZipCode,String Mobile){

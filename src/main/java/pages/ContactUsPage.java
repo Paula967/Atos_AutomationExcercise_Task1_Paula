@@ -3,8 +3,8 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utiles.DriverMange.DriverManager;
-import utiles.commonHelper.AssertionHelper;
-import utiles.commonHelper.ElementHelper;
+import utiles.commonHelper.ElementsHelper.AssertionHelper;
+import utiles.commonHelper.ElementsHelper.BaseElementHelper;
 import utiles.commonHelper.Global;
 
 public class ContactUsPage {
@@ -29,33 +29,33 @@ public class ContactUsPage {
     }
     //Actions
     public ContactUsPage clickOnContactUS(){
-        ElementHelper.click(driver,contactUsLink);
+        BaseElementHelper.click(driver,contactUsLink);
         return this;
     }
     public ContactUsPage enterName(String Name){
-        ElementHelper.sendText(driver,nameText,Name);
+        BaseElementHelper.sendText(driver,nameText,Name);
         return this;
     }
     public ContactUsPage enterEmail(){
-        ElementHelper.sendText(driver,emailText,global.getEmail());
+        BaseElementHelper.sendText(driver,emailText,global.getEmail());
         return this;
     }
     public ContactUsPage enterSubject(){
         global.setSubject();
-        ElementHelper.sendText(driver,subjectText,global.getSubject());
+        BaseElementHelper.sendText(driver,subjectText,global.getSubject());
         return this;
     }
     public ContactUsPage enterMessage(){
         global.setMessage();
-        ElementHelper.sendText(driver,message,global.getMessage());
+        BaseElementHelper.sendText(driver,message,global.getMessage());
         return this;
     }
     public ContactUsPage clickOnSubmit(){
-        ElementHelper.click(driver,submitButton);
+        BaseElementHelper.click(driver,submitButton);
         return this;
     }
     public ContactUsPage clickOnAlert(){
-        ElementHelper.clickOnAcceptAlert(driver);
+        BaseElementHelper.clickOnAcceptAlert(driver);
         return this;
     }
     public ContactUsPage assertSuccessMessageAppear(){

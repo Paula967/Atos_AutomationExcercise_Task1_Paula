@@ -1,4 +1,4 @@
-package utiles.commonHelper;
+package utiles.commonHelper.ElementsHelper;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
@@ -11,7 +11,7 @@ public class AssertionHelper {
     // Assert element is present and displayed
     public static void assertElementPresent(WebDriver driver, By locator) {
         try {
-            boolean isDisplayed = ElementHelper.waitForVisibility(driver, locator).isDisplayed();
+            boolean isDisplayed = WaitHelper.waitForVisibility(driver, locator).isDisplayed();
             Assert.assertTrue(isDisplayed, "❌ Element not displayed: " + locator);
         } catch (NoSuchElementException e) {
             Assert.fail("❌ Element not found: " + locator);
@@ -19,7 +19,7 @@ public class AssertionHelper {
     }
     public static void assertTextPresent(WebDriver driver, By locator,String text) {
         try {
-            boolean isDisplayed =ElementHelper.isTextPresentInElement(driver,locator,text);
+            boolean isDisplayed =BaseElementHelper.isTextPresentInElement(driver,locator,text);
             Assert.assertTrue(isDisplayed, "❌ Text not displayed: " + text);
         } catch (NoSuchElementException e) {
             Assert.fail("❌ Element not found: " + locator);
@@ -27,7 +27,7 @@ public class AssertionHelper {
     }
     // Assert current URL matches expected URL
     public static void assertUrl(WebDriver driver, String expectedUrl) {
-        String actualUrl = ElementHelper.getCurrentUrl(driver);
+        String actualUrl = BaseElementHelper.getCurrentUrl(driver);
         Assert.assertEquals(actualUrl, expectedUrl,
                 "❌ Expected URL: " + expectedUrl + " but found: " + actualUrl);
     }
@@ -64,21 +64,21 @@ public class AssertionHelper {
     }
     // Assert text of a web element matches expected value
     public static void assertElementText(WebDriver driver, By locator, String expectedText) {
-        String actualText = ElementHelper.waitForVisibility(driver, locator).getText();
+        String actualText = WaitHelper.waitForVisibility(driver, locator).getText();
         Assert.assertEquals(actualText.trim(), expectedText.trim(),
                 "❌ Text mismatch! Expected: [" + expectedText + "] but found: [" + actualText + "]");
     }
     //Assert All Elements Are Visible
     public static void assertElementsVisibility(WebDriver driver,By Locator){
         try {
-            boolean isDisplayed = ElementHelper.areAllProductsVisible(driver,Locator);
+            boolean isDisplayed = BaseElementHelper.areAllProductsVisible(driver,Locator);
             Assert.assertTrue(isDisplayed, "❌ Elements not displayed: " + Locator);
         } catch (NoSuchElementException e) {
             Assert.fail("❌ Elements not found: " + Locator);
         }
     }
     public static void assertListContainsSpecificElement(WebDriver driver,By Locator,String Element){
-        List<String> items=ElementHelper.getAllElementsText(driver,Locator);
+        List<String> items=BaseElementHelper.getAllElementsText(driver,Locator);
         for (String item : items) {
             Assert.assertTrue(
                     item.toLowerCase().contains(Element.toLowerCase()),
@@ -87,7 +87,7 @@ public class AssertionHelper {
         }
     }
     public static void assertContains(WebDriver driver,By Locator, String ExpectedText){
-        String actualText=ElementHelper.getText(driver,Locator);
+        String actualText=BaseElementHelper.getText(driver,Locator);
         Assert.assertTrue(actualText.toLowerCase().contains(ExpectedText.toLowerCase()),
                 "❌ Expected text: [" + ExpectedText + "] not found in actual text: [" + actualText + "]");
     }

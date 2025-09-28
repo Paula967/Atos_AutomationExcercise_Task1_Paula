@@ -3,8 +3,9 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utiles.DriverMange.DriverManager;
-import utiles.commonHelper.AssertionHelper;
-import utiles.commonHelper.ElementHelper;
+import utiles.commonHelper.ElementsHelper.AssertionHelper;
+import utiles.commonHelper.ElementsHelper.BaseElementHelper;
+import utiles.commonHelper.ElementsHelper.JavaScriptHelper;
 
 public class AddToCartPage {
         WebDriver driver;
@@ -31,12 +32,12 @@ public class AddToCartPage {
 
         public AddToCartPage setProductQuantity(Double quantity) {
             int intQuantity = quantity.intValue();
-            ElementHelper.sendText(driver, quantityInput, String.valueOf(intQuantity));
+            BaseElementHelper.sendText(driver, quantityInput, String.valueOf(intQuantity));
             return this;
         }
 
         public AddToCartPage clickAddToCart() {
-            ElementHelper.click(driver,addToCartButton);
+            BaseElementHelper.click(driver,addToCartButton);
             return this;
         }
 
@@ -46,38 +47,38 @@ public class AddToCartPage {
         }
 
          public AddToCartPage continueShopping(){
-             ElementHelper.click(driver,continueShoppingButton);
-             ElementHelper.click(driver,productsLink);
+             BaseElementHelper.click(driver,continueShoppingButton);
+             BaseElementHelper.click(driver,productsLink);
              return this;
          }
          public AddToCartPage clickOnAddToCartFromProductsPage(){
-             ElementHelper.click(driver,addToCartOnProductsPage);
+             JavaScriptHelper.jsClickAfterScroll(driver,addToCartOnProductsPage);
              return this;
          }
 
         public AddToCartPage goToCart() {
-            ElementHelper.click(driver,viewCartButton);
+            BaseElementHelper.click(driver,viewCartButton);
             return this;
         }
 
         public String getCartProductName(Double index) {
             int intIndex = index.intValue();
-            return ElementHelper.getElementTextByIndex(driver,cartProductNames,intIndex);
+            return BaseElementHelper.getElementTextByIndex(driver,cartProductNames,intIndex);
         }
 
         public int getCartProductQuantity(Double index) {
             int intIndex = index.intValue();
-            return Integer.parseInt(ElementHelper.getElementTextByIndex(driver,cartProductQuantities,intIndex));
+            return Integer.parseInt(BaseElementHelper.getElementTextByIndex(driver,cartProductQuantities,intIndex));
         }
 
         public double getCartProductPrice(Double index) {
             int intIndex = index.intValue();
-            return Double.parseDouble(ElementHelper.getElementTextByIndex(driver,cartProductPrices,intIndex).replace("Rs. ", ""));
+            return Double.parseDouble(BaseElementHelper.getElementTextByIndex(driver,cartProductPrices,intIndex).replace("Rs. ", ""));
         }
 
         public double getCartTotalAmount(Double index) {
             int intIndex = index.intValue();
-            return Double.parseDouble(ElementHelper.getElementTextByIndex(driver,cartTotalAmount,intIndex).replace("Rs. ", ""));
+            return Double.parseDouble(BaseElementHelper.getElementTextByIndex(driver,cartTotalAmount,intIndex).replace("Rs. ", ""));
         }
         public AddToCartPage assertProductNamesByIndex(Double index,String ExpectedName){
             AssertionHelper.assertEqual(getCartProductName(index),ExpectedName);
@@ -99,7 +100,7 @@ public class AddToCartPage {
             return this;
         }
         public CheckOutPage clickOnProceedToCheckOut(){
-            ElementHelper.click(driver,proceedToCheckOutButton);
+            BaseElementHelper.click(driver,proceedToCheckOutButton);
             return new CheckOutPage();
         }
     }

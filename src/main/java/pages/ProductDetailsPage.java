@@ -3,7 +3,7 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utiles.DriverMange.DriverManager;
-import utiles.commonHelper.AssertionHelper;
+import utiles.commonHelper.ElementsHelper.AssertionHelper;
 
 public class ProductDetailsPage {
     //Variables

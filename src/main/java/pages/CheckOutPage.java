@@ -3,8 +3,9 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utiles.DriverMange.DriverManager;
-import utiles.commonHelper.AssertionHelper;
-import utiles.commonHelper.ElementHelper;
+import utiles.commonHelper.ElementsHelper.AssertionHelper;
+import utiles.commonHelper.ElementsHelper.BaseElementHelper;
+import utiles.commonHelper.ElementsHelper.JavaScriptHelper;
 
 public class CheckOutPage {
 
@@ -33,7 +34,7 @@ public class CheckOutPage {
         return this;
     }
     public PaymentPage clickPlaceOrderButton(){
-        ElementHelper.click(driver,placeOrderButton);
+        JavaScriptHelper.jsClickAfterScroll(driver,placeOrderButton);
         return new PaymentPage();
     }
 }

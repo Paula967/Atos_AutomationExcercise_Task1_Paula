@@ -3,8 +3,8 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utiles.DriverMange.DriverManager;
-import utiles.commonHelper.AssertionHelper;
-import utiles.commonHelper.ElementHelper;
+import utiles.commonHelper.ElementsHelper.AssertionHelper;
+import utiles.commonHelper.ElementsHelper.BaseElementHelper;
 
 public class LogOutPage {
     //Variables
@@ -20,7 +20,7 @@ public class LogOutPage {
 
     //Actions
     public LogOutPage clickOnLogOutButton(){
-        ElementHelper.click(driver,logoutLink);
+        BaseElementHelper.click(driver,logoutLink);
         return this;
     }
     public void assertRedirectionOfURL(){

@@ -1,13 +1,13 @@
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.ProductsPage;
+import utiles.ExtentReports.ExtentReportListener;
 import utiles.datareaders.DataProviderUtils;
+import utiles.datareaders.JsonFile;
 
-import java.io.IOException;
-import java.util.Iterator;
-
+@Listeners(ExtentReportListener.class)
 public class ProductsTest extends BaseTest{
 
     HomePage Home;
@@ -17,11 +17,8 @@ public class ProductsTest extends BaseTest{
         Home =new HomePage();
         productsPage=new ProductsPage();
     }
-    @DataProvider
-    public Iterator<Object[]> getData() throws IOException {
-        return DataProviderUtils.getData("src/test/resources/SearchTestData.json");
-    }
-    @Test(dataProvider = "getData")
+    @Test(dataProvider = "jsonDataProvider", dataProviderClass = DataProviderUtils.class)
+    @JsonFile("src/test/resources/SearchTestData.json")
     public void products(String product){
         productsPage=Home
                 .clickOnProductsLink();

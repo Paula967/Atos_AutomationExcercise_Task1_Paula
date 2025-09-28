@@ -1,12 +1,13 @@
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
+
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.AddToCartPage;
+import utiles.ExtentReports.ExtentReportListener;
 import utiles.datareaders.DataProviderUtils;
+import utiles.datareaders.JsonFile;
 
-import java.io.IOException;
-import java.util.Iterator;
-
+@Listeners(ExtentReportListener.class)
 public class AddToCartPageTest extends BaseTest{
 
     AddToCartPage cartPage;
@@ -15,11 +16,8 @@ public class AddToCartPageTest extends BaseTest{
     public void setUp(){
         cartPage= new AddToCartPage();
     }
-    @DataProvider
-    public Iterator<Object[]> getData() throws IOException {
-        return DataProviderUtils.getData("src/test/resources/ProductsAddedToCartTestData.json");
-    }
-    @Test(dataProvider = "getData")
+    @Test(dataProvider = "jsonDataProvider", dataProviderClass = DataProviderUtils.class)
+    @JsonFile("src/test/resources/ProductsAddedToCartTestData.json")
     public void testAddToCartAndVerify
                 (String productName_A,Double productPrice_A,Double productQty_A,Double productIndex_A,
                  String productName_B,Double productPrice_B,Double productQty_B,Double productIndex_B) {
