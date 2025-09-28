@@ -23,6 +23,7 @@ public class AddToCartPage {
         By cartProductQuantities = By.cssSelector("td button");
         By cartProductPrices = By.cssSelector(".cart_price");
         By cartTotalAmount = By.cssSelector(".cart_total_price");
+        By proceedToCheckOutButton=By.cssSelector(".check_out");
 
         public AddToCartPage() {
             this.driver = DriverManager.getDriver();
@@ -96,5 +97,9 @@ public class AddToCartPage {
             double ExpectedtotalAmount= getCartProductPrice(index) * getCartProductQuantity(index);
             AssertionHelper.assertEqual(getCartTotalAmount(index),ExpectedtotalAmount);
             return this;
+        }
+        public CheckOutPage clickOnProceedToCheckOut(){
+            ElementHelper.click(driver,proceedToCheckOutButton);
+            return new CheckOutPage();
         }
     }

@@ -78,4 +78,9 @@ public class AssertionHelper {
             );
         }
     }
+    public static void assertContains(WebDriver driver,By Locator, String ExpectedText){
+        String actualText=ElementHelper.getText(driver,Locator);
+        Assert.assertTrue(actualText.toLowerCase().contains(ExpectedText.toLowerCase()),
+                "❌ Expected text: [" + ExpectedText + "] not found in actual text: [" + actualText + "]");
+    }
 }

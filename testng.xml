@@ -34,6 +34,18 @@
                     </include>
                 </methods>
             </class>
+            <class name="CheckOutPageTest">
+                <methods>
+                    <include name="testVerifyDeliveryAddressAndPlaceOrder">
+                    </include>
+                </methods>
+            </class>
+        <class name="PaymentPageTest">
+            <methods>
+                <include name="paymentTest">
+                </include>
+            </methods>
+        </class>
             <!--<class name="ContactUsTest">
                 <methods>
                     <include name="contactUs">
