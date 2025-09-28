@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utiles.DriverMange.DriverManager;
+import utiles.commonHelper.ElementsHelper.AssertionHelper;
 import utiles.commonHelper.ElementsHelper.BaseElementHelper;
 import utiles.commonHelper.ElementsHelper.DropDownHelper;
 import utiles.commonHelper.Global;
@@ -30,6 +31,7 @@ public class SignupPage {
     private final By Mobile_number = By.id("mobile_number");
     private final By Create_Account = By.xpath("//button[text()='Create Account']");
     private final By AccountCreatedMessage = By.xpath("//h2[@data-qa='account-created']");
+    private final By accountCreatedMessage=By.cssSelector("h2[data-qa='account-created'] b");
     private final By LogOutBtn=By.linkText("Logout");
 
     public SignupPage() {
@@ -127,6 +129,10 @@ public class SignupPage {
     }
     public SignupPage clickOnLogOnBtn() {
         BaseElementHelper.click(driver, LogOutBtn);
+        return this;
+    }
+    public SignupPage assertAccountCreated(){
+        AssertionHelper.assertElementPresent(driver,accountCreatedMessage);
         return this;
     }
 

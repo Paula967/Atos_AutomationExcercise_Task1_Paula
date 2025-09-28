@@ -32,7 +32,9 @@ public class SignUpTest extends  BaseTest {
                 .enterFirstName(FirstName).enterLastName(Last)
                 .enterAddress(Address).chooseCountry(Country).enterState(State).enterCity(City)
                 .enterZipCode(ZipCode).enterMobileNumber(Mobile)
-                .clickOnCreateAccountBtn();
+                .clickOnCreateAccountBtn()
+                .assertAccountCreated();
+
         Home.clickOnSignInUpLink();
         signupPage.clickOnLogOnBtn();
     }
