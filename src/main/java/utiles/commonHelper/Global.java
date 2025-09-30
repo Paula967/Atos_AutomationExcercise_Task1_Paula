@@ -2,10 +2,10 @@ package utiles.commonHelper;
 
 
 public class Global {
-  private String Password;
-    private  String MobileNumber;
+    private String Password;
+    private String MobileNumber;
     private String Email;
-    private   String FullName;
+    private String FullName;
     private String Subject;
     private String Message;
     static  Global Instance;
