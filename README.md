@@ -68,3 +68,16 @@ Feel free to fork the repository and submit pull requests for improvements or ne
 
 ## License
 This project is for educational and demonstration purposes.
+
+## E2E Scenarios
+This test suite covers the following end-to-end user journeys:
+
+- **Sign Up**: Automates user registration, including entering personal details, address, and verifying account creation.
+- **Sign In**: Validates login functionality with email and password, ensuring successful authentication.
+- **Product Search and View**: Searches for products, verifies product visibility, and views product details.
+- **Add to Cart**: Adds multiple products to the cart, verifies quantities, prices, and total amounts.
+- **Checkout**: Proceeds to checkout, verifies delivery address, and places an order.
+- **Payment**: Enters credit card details and confirms payment.
+- **Contact Us**: Submits the contact form and verifies success message.
+- **Log Out**: Logs out and checks for correct redirection.
+- **Product Details**: Verifies product name, category, and price on the product details page.
