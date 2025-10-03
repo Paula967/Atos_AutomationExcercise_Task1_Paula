@@ -1,5 +1,8 @@
 package utiles.config;
 
+import utiles.Logs.LogUtiles;
+
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
@@ -18,7 +21,8 @@ public final class LoadProperties {
         try (FileInputStream stream = new FileInputStream(path)) {
             pro.load(stream);
         } catch (IOException e) {
-            System.out.println("Error loading properties file: " + e.getMessage());
+
+            LogUtiles.error("Error loading properties file: " , e.getMessage());
         }
         return pro;
     }

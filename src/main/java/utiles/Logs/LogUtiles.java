@@ -1,18 +1,43 @@
 package utiles.Logs;
-
-import java.util.logging.LogManager;
-import java.util.logging.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class LogUtiles {
-    private Logger logger= LogManager.getLogManager().getLogger(Logger.GLOBAL_LOGGER_NAME);
-    public void info(String message){
-        logger.info(message);
+    public static final String LOGS_PATH = "test-outputs/Logs";
+
+    private LogUtiles() {
+        super();
     }
-    public void warning(String message){
-        logger.warning(message);
+
+    public static Logger logger() {
+        return LogManager.getLogger(Thread.currentThread().getStackTrace()[3].getClassName());
     }
-    public void severe(String message){
-        logger.severe(message);
+
+
+    // LogUtils.info("username is:", data.username); []
+
+    public static void trace(String... message) {
+        logger().trace(String.join(" ", message));
+    }
+
+    public static void debug(String... message) {
+        logger().debug(String.join(" ", message));
+    }
+
+    public static void info(String... message) {
+        logger().info(String.join(" ", message));
+    }
+
+    public static void warn(String... message) {
+        logger().warn(String.join(" ", message));
+    }
+
+    public static void error(String... message) {
+        logger().error(String.join(" ", message));
+    }
+
+    public static void fatal(String... message) {
+        logger().fatal(String.join(" ", message));
     }
 
 }

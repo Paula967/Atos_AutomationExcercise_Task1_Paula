@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import utiles.Logs.LogUtiles;
 import utiles.config.LoadProperties;
 
 import java.time.Duration;
@@ -37,6 +38,7 @@ public class DriverManager {
                 WebDriverManager.edgedriver().setup();
                 driver = new EdgeDriver();
         }
+        LogUtiles.info("Launching " + BrowserName + " browser and navigating to " + URLEnvironment);
         driver.manage().window().maximize();
         //implicitWait
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -50,7 +52,7 @@ public class DriverManager {
     }
      static public void closeDriver() {
          if (driver != null) {
-             System.out.println("Closing WebDriver...");
+             LogUtiles.info("Closing WebDriver...");
              driver.quit();
              driver = null;  // Set driver to null after quitting to indicate it's no longer available
          }
