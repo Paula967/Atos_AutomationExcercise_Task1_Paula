@@ -1,0 +1,355 @@
+[DEBUG] - [04-10-2025 00:13:15] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Paul\IdeaProjects\Atos_AutomationExcercise_Task1_Paula\testng.xml"
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 42 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 8 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 11 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] - [04-10-2025 00:13:15] [main] [org.testng.internal.Utils] - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] - [04-10-2025 00:13:16] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Paul\IdeaProjects\Atos_AutomationExcercise_Task1_Paula\testng.xml
+
+[DEBUG] - [04-10-2025 00:13:16] [main] [io.github.bonigarcia.wdm.WebDriverManager] - Using WebDriverManager 6.2.0
+[DEBUG] - [04-10-2025 00:13:17] [main] [io.github.bonigarcia.wdm.cache.ResolutionCache] - Resolution chrome=140 in cache (valid until 00:49:13 04/10/2025 EEST)
+[DEBUG] - [04-10-2025 00:13:17] [main] [io.github.bonigarcia.wdm.cache.ResolutionCache] - Resolution chrome140=140.0.7339.207 in cache (valid until 23:49:13 04/10/2025 EEST)
+[INFO] - [04-10-2025 00:13:17] [main] [io.github.bonigarcia.wdm.WebDriverManager] - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+[DEBUG] - [04-10-2025 00:13:17] [main] [io.github.bonigarcia.wdm.WebDriverManager] - Driver chromedriver 140.0.7339.207 found in cache
+[INFO] - [04-10-2025 00:13:17] [main] [io.github.bonigarcia.wdm.WebDriverManager] - Exporting webdriver.chrome.driver as C:\Users\Paul\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+[INFO] - [04-10-2025 00:13:19] [main] [utiles.DriverMange.DriverManager] - Launching chrome browser and navigating to https://www.automationexercise.com/
+[INFO] - [04-10-2025 00:13:25] [main] [org.testng.internal.Utils] - [Utils] DynamicGraphHelper.createDynamicGraph() took 0 ms.
+[INFO] - [04-10-2025 00:13:25] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Clicking on element by locator: By.linkText: Signup / Login
+[INFO] - [04-10-2025 00:13:25] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for element to be clickable located by: By.linkText: Signup / Login
+[INFO] - [04-10-2025 00:13:26] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Sending text 'Ahmed' to element by locator: By.name: name
+[INFO] - [04-10-2025 00:13:26] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.name: name
+[INFO] - [04-10-2025 00:13:26] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Sending text 'Atos_2025-10-04-00-13-26@gmail.com' to element by locator: By.xpath: //input[@data-qa='signup-email']
+[INFO] - [04-10-2025 00:13:26] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.xpath: //input[@data-qa='signup-email']
+[INFO] - [04-10-2025 00:13:27] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Clicking on element by locator: By.xpath: //button[text()='Signup']
+[INFO] - [04-10-2025 00:13:27] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for element to be clickable located by: By.xpath: //button[text()='Signup']
+[INFO] - [04-10-2025 00:13:27] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Finding element by value: Mrs
+[INFO] - [04-10-2025 00:13:28] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Sending text 'ei97gz393h' to element by locator: By.id: password
+[INFO] - [04-10-2025 00:13:28] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.id: password
+[INFO] - [04-10-2025 00:13:28] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for element to be clickable located by: By.id: days
+[INFO] - [04-10-2025 00:13:28] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for element to be clickable located by: By.id: months
+[INFO] - [04-10-2025 00:13:28] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for element to be clickable located by: By.id: years
+[INFO] - [04-10-2025 00:13:28] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Clicking on element by locator: By.xpath: //label[text()='Sign up for our newsletter!']
+[INFO] - [04-10-2025 00:13:28] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for element to be clickable located by: By.xpath: //label[text()='Sign up for our newsletter!']
+[INFO] - [04-10-2025 00:13:28] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Sending text 'Rofida' to element by locator: By.id: first_name
+[INFO] - [04-10-2025 00:13:28] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.id: first_name
+[INFO] - [04-10-2025 00:13:28] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Sending text 'Rofida' to element by locator: By.id: last_name
+[INFO] - [04-10-2025 00:13:28] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.id: last_name
+[INFO] - [04-10-2025 00:13:29] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Sending text 'add' to element by locator: By.id: address1
+[INFO] - [04-10-2025 00:13:29] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.id: address1
+[INFO] - [04-10-2025 00:13:29] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for element to be clickable located by: By.id: country
+[INFO] - [04-10-2025 00:13:29] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Sending text 'Rofida' to element by locator: By.id: state
+[INFO] - [04-10-2025 00:13:29] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.id: state
+[INFO] - [04-10-2025 00:13:29] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Sending text 'Rofida' to element by locator: By.id: city
+[INFO] - [04-10-2025 00:13:29] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.id: city
+[INFO] - [04-10-2025 00:13:29] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Sending text 'Rofida' to element by locator: By.id: zipcode
+[INFO] - [04-10-2025 00:13:29] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.id: zipcode
+[INFO] - [04-10-2025 00:13:29] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Sending text '010' to element by locator: By.id: mobile_number
+[INFO] - [04-10-2025 00:13:29] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.id: mobile_number
+[INFO] - [04-10-2025 00:13:30] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Clicking on element by locator: By.xpath: //button[text()='Create Account']
+[INFO] - [04-10-2025 00:13:30] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for element to be clickable located by: By.xpath: //button[text()='Create Account']
+[INFO] - [04-10-2025 00:13:30] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.cssSelector: h2[data-qa='account-created'] b
+[INFO] - [04-10-2025 00:13:31] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Clicking on element by locator: By.linkText: Signup / Login
+[INFO] - [04-10-2025 00:13:31] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for element to be clickable located by: By.linkText: Signup / Login
+[INFO] - [04-10-2025 00:13:36] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Clicking on element by locator: By.linkText: Logout
+[INFO] - [04-10-2025 00:13:36] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for element to be clickable located by: By.linkText: Logout
+[INFO] - [04-10-2025 00:13:37] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Clicking on element by locator: By.linkText: Signup / Login
+[INFO] - [04-10-2025 00:13:37] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for element to be clickable located by: By.linkText: Signup / Login
+[INFO] - [04-10-2025 00:13:38] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Sending text 'Atos_2025-10-04-00-13-26@gmail.com' to element by locator: By.xpath: //input[@data-qa='login-email']
+[INFO] - [04-10-2025 00:13:38] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.xpath: //input[@data-qa='login-email']
+[INFO] - [04-10-2025 00:13:38] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Sending text 'ei97gz393h' to element by locator: By.xpath: //input[@data-qa='login-password']
+[INFO] - [04-10-2025 00:13:38] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.xpath: //input[@data-qa='login-password']
+[INFO] - [04-10-2025 00:13:38] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Clicking on element by locator: By.xpath: //button[@data-qa='login-button']
+[INFO] - [04-10-2025 00:13:38] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for element to be clickable located by: By.xpath: //button[@data-qa='login-button']
+[INFO] - [04-10-2025 00:13:43] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.xpath: //a[text()=' Logged in as ']
+[INFO] - [04-10-2025 00:13:43] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Clicking on element by locator: By.cssSelector: a[href='/products']
+[INFO] - [04-10-2025 00:13:43] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for element to be clickable located by: By.cssSelector: a[href='/products']
+[INFO] - [04-10-2025 00:13:46] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Checking if all products are visible by locator: By.cssSelector: .features_items > .col-sm-4
+[INFO] - [04-10-2025 00:13:46] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Getting all visible elements by locator: By.cssSelector: .features_items > .col-sm-4
+[INFO] - [04-10-2025 00:13:46] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of all elements located by: By.cssSelector: .features_items > .col-sm-4
+[INFO] - [04-10-2025 00:13:47] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Sending text 'T-shirt' to element by locator: By.id: search_product
+[INFO] - [04-10-2025 00:13:47] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.id: search_product
+[INFO] - [04-10-2025 00:13:47] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Clicking on element by locator: By.id: submit_search
+[INFO] - [04-10-2025 00:13:47] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for element to be clickable located by: By.id: submit_search
+[INFO] - [04-10-2025 00:13:48] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Getting text of all elements by locator: By.cssSelector: .productinfo p
+[INFO] - [04-10-2025 00:13:48] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Getting all present elements by locator: By.cssSelector: .productinfo p
+[INFO] - [04-10-2025 00:13:48] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for presence of all elements located by: By.cssSelector: .productinfo p
+[INFO] - [04-10-2025 00:13:48] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Finding element by index: 2 and text: View Product
+[INFO] - [04-10-2025 00:13:50] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.cssSelector: .product-information h2
+[INFO] - [04-10-2025 00:13:50] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.xpath: //p[contains(text(), 'Category')]
+[INFO] - [04-10-2025 00:13:50] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.cssSelector: div[class='product-information'] span span
+[INFO] - [04-10-2025 00:13:50] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Sending text '2' to element by locator: By.cssSelector: input[name='quantity']
+[INFO] - [04-10-2025 00:13:50] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.cssSelector: input[name='quantity']
+[INFO] - [04-10-2025 00:13:50] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Clicking on element by locator: By.cssSelector: .cart
+[INFO] - [04-10-2025 00:13:50] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for element to be clickable located by: By.cssSelector: .cart
+[INFO] - [04-10-2025 00:13:50] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.cssSelector: .modal-body p:first-child
+[INFO] - [04-10-2025 00:13:51] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Clicking on element by locator: By.cssSelector: .btn-block
+[INFO] - [04-10-2025 00:13:51] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for element to be clickable located by: By.cssSelector: .btn-block
+[INFO] - [04-10-2025 00:13:51] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Clicking on element by locator: By.cssSelector: a[href='/products']
+[INFO] - [04-10-2025 00:13:51] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for element to be clickable located by: By.cssSelector: a[href='/products']
+[INFO] - [04-10-2025 00:13:54] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.xpath: (//*[contains(text(),'Add to cart')])[1]
+[INFO] - [04-10-2025 00:13:54] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.cssSelector: .modal-body p:first-child
+[INFO] - [04-10-2025 00:13:54] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Clicking on element by locator: By.xpath: //u[normalize-space()='View Cart']/..
+[INFO] - [04-10-2025 00:13:54] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for element to be clickable located by: By.xpath: //u[normalize-space()='View Cart']/..
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Getting text of element by index: 1 using locator: By.cssSelector: tbody h4
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Finding elements by locator: By.cssSelector: tbody h4
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of all elements located by: By.cssSelector: tbody h4
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Getting text of element by index: 1 using locator: By.cssSelector: td button
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Finding elements by locator: By.cssSelector: td button
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of all elements located by: By.cssSelector: td button
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Getting text of element by index: 1 using locator: By.cssSelector: .cart_price
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Finding elements by locator: By.cssSelector: .cart_price
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of all elements located by: By.cssSelector: .cart_price
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Getting text of element by index: 1 using locator: By.cssSelector: .cart_price
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Finding elements by locator: By.cssSelector: .cart_price
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of all elements located by: By.cssSelector: .cart_price
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Getting text of element by index: 1 using locator: By.cssSelector: td button
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Finding elements by locator: By.cssSelector: td button
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of all elements located by: By.cssSelector: td button
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Getting text of element by index: 1 using locator: By.cssSelector: .cart_total_price
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Finding elements by locator: By.cssSelector: .cart_total_price
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of all elements located by: By.cssSelector: .cart_total_price
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Getting text of element by index: 2 using locator: By.cssSelector: tbody h4
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Finding elements by locator: By.cssSelector: tbody h4
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of all elements located by: By.cssSelector: tbody h4
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Getting text of element by index: 2 using locator: By.cssSelector: td button
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Finding elements by locator: By.cssSelector: td button
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of all elements located by: By.cssSelector: td button
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Getting text of element by index: 2 using locator: By.cssSelector: .cart_price
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Finding elements by locator: By.cssSelector: .cart_price
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of all elements located by: By.cssSelector: .cart_price
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Getting text of element by index: 2 using locator: By.cssSelector: .cart_price
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Finding elements by locator: By.cssSelector: .cart_price
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of all elements located by: By.cssSelector: .cart_price
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Getting text of element by index: 2 using locator: By.cssSelector: td button
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Finding elements by locator: By.cssSelector: td button
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of all elements located by: By.cssSelector: td button
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Getting text of element by index: 2 using locator: By.cssSelector: .cart_total_price
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Finding elements by locator: By.cssSelector: .cart_total_price
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of all elements located by: By.cssSelector: .cart_total_price
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Clicking on element by locator: By.cssSelector: .check_out
+[INFO] - [04-10-2025 00:13:56] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for element to be clickable located by: By.cssSelector: .check_out
+[INFO] - [04-10-2025 00:13:58] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.cssSelector: ul[id='address_delivery'] li:nth-child(4)
+[INFO] - [04-10-2025 00:13:58] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Getting text from element by locator: By.cssSelector: ul[id='address_delivery'] li[class='address_city address_state_name address_postcode']
+[INFO] - [04-10-2025 00:13:58] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.cssSelector: ul[id='address_delivery'] li[class='address_city address_state_name address_postcode']
+[INFO] - [04-10-2025 00:13:58] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Getting text from element by locator: By.cssSelector: ul[id='address_delivery'] li[class='address_city address_state_name address_postcode']
+[INFO] - [04-10-2025 00:13:58] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.cssSelector: ul[id='address_delivery'] li[class='address_city address_state_name address_postcode']
+[INFO] - [04-10-2025 00:13:58] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Getting text from element by locator: By.cssSelector: ul[id='address_delivery'] li[class='address_city address_state_name address_postcode']
+[INFO] - [04-10-2025 00:13:58] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.cssSelector: ul[id='address_delivery'] li[class='address_city address_state_name address_postcode']
+[INFO] - [04-10-2025 00:13:58] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.cssSelector: .btn.btn-default.check_out
+[INFO] - [04-10-2025 00:14:01] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Sending text 'PaulaFernandez' to element by locator: By.cssSelector: input[name='name_on_card']
+[INFO] - [04-10-2025 00:14:01] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.cssSelector: input[name='name_on_card']
+[INFO] - [04-10-2025 00:14:01] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Sending text '1234567890123456' to element by locator: By.cssSelector: input[name='card_number']
+[INFO] - [04-10-2025 00:14:01] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.cssSelector: input[name='card_number']
+[INFO] - [04-10-2025 00:14:01] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Sending text '123' to element by locator: By.cssSelector: input[name='cvc']
+[INFO] - [04-10-2025 00:14:01] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.cssSelector: input[name='cvc']
+[INFO] - [04-10-2025 00:14:01] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Sending text '12' to element by locator: By.cssSelector: input[name='expiry_month']
+[INFO] - [04-10-2025 00:14:01] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.cssSelector: input[name='expiry_month']
+[INFO] - [04-10-2025 00:14:01] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Sending text '2029' to element by locator: By.cssSelector: input[name='expiry_year']
+[INFO] - [04-10-2025 00:14:01] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.cssSelector: input[name='expiry_year']
+[INFO] - [04-10-2025 00:14:01] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.id: submit
+[INFO] - [04-10-2025 00:14:03] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.cssSelector: h2[data-qa='order-placed'] b
+[INFO] - [04-10-2025 00:14:03] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Clicking on element by locator: By.cssSelector: a[href='/contact_us']
+[INFO] - [04-10-2025 00:14:03] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for element to be clickable located by: By.cssSelector: a[href='/contact_us']
+[INFO] - [04-10-2025 00:14:05] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Sending text 'T-shirt' to element by locator: By.cssSelector: input[placeholder='Name']
+[INFO] - [04-10-2025 00:14:05] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.cssSelector: input[placeholder='Name']
+[INFO] - [04-10-2025 00:14:05] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Sending text 'Atos_2025-10-04-00-13-26@gmail.com' to element by locator: By.cssSelector: input[placeholder='Email']
+[INFO] - [04-10-2025 00:14:05] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.cssSelector: input[placeholder='Email']
+[INFO] - [04-10-2025 00:14:06] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Sending text 'Enim et error accusantium doloribus temporibus.' to element by locator: By.cssSelector: input[placeholder='Subject']
+[INFO] - [04-10-2025 00:14:06] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.cssSelector: input[placeholder='Subject']
+[INFO] - [04-10-2025 00:14:06] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Sending text 'Voluptatum fugit aut aut veritatis perspiciatis. Ullam cum sunt ipsa nulla assumenda ducimus et. Quia quo possimus expedita dolorum optio. Et iusto vel sed ullam et non consequatur. Ipsa et ea alias aperiam iste.' to element by locator: By.cssSelector: textarea[placeholder='Your Message Here']
+[INFO] - [04-10-2025 00:14:06] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.cssSelector: textarea[placeholder='Your Message Here']
+[INFO] - [04-10-2025 00:14:07] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Clicking on element by locator: By.cssSelector: input[value='Submit']
+[INFO] - [04-10-2025 00:14:07] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for element to be clickable located by: By.cssSelector: input[value='Submit']
+[INFO] - [04-10-2025 00:14:07] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Clicking on accept alert
+[INFO] - [04-10-2025 00:14:07] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for visibility of element located by: By.cssSelector: .alert-success
+[INFO] - [04-10-2025 00:14:07] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Clicking on element by locator: By.cssSelector: a[href='/logout']
+[INFO] - [04-10-2025 00:14:07] [main] [utiles.commonHelper.ElementsHelper.WaitHelper] - Waiting for element to be clickable located by: By.cssSelector: a[href='/logout']
+[INFO] - [04-10-2025 00:14:08] [main] [utiles.commonHelper.ElementsHelper.BaseElementHelper] - Getting current URL
+[INFO] - [04-10-2025 00:14:08] [main] [utiles.DriverMange.DriverManager] - Closing WebDriver...
+[INFO] - [04-10-2025 00:14:08] [main] [org.testng.internal.Utils] - [TestNG] Time taken by org.testng.internal.ExitCodeListener@227b9277: 0 ms
