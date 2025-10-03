@@ -9,12 +9,14 @@ This project is a comprehensive automated testing suite for the Automation Exerc
 - Data-driven testing using JSON files
 - Configurable browser and environment settings
 - ExtentReports integration for detailed test reports
+- Integrated logging (Log4j2) for cleaner, more maintainable, and traceable test execution
 
 ## Technologies Used
 - Java
 - Selenium WebDriver
 - TestNG
 - ExtentReports
+- Log4j2 (Logging)
 - JSON for test data
 
 ## Project Structure
@@ -23,9 +25,10 @@ src/
   main/
     java/
       pages/         # Page Object classes (AddToCartPage, HomePage, etc.)
-      utiles/        # Utility classes (helpers, config, data readers, driver management, reporting)
+      utiles/        # Utility classes (helpers, config, data readers, driver management, reporting, logging)
     resources/
       Config.properties  # Environment configuration
+      log4j2.properties  # Logging configuration
   test/
     java/
       *.java         # Test classes for each user flow
@@ -38,7 +41,8 @@ pom.xml              # Maven build file
 1. Clone the repository to your local machine.
 2. Ensure you have Java and Maven installed.
 3. Update `Config.properties` with your desired URL and browser.
-4. Install dependencies:
+4. (Optional) Adjust `log4j2.properties` for custom logging preferences.
+5. Install dependencies:
    ```
    mvn clean install
    ```
@@ -48,10 +52,13 @@ To execute all tests and generate reports:
 ```
 mvn test
 ```
-Test results and ExtentReports will be available in the `test-output` directory.
+Test results and ExtentReports will be available in the `test-output` directory. Log files are generated in `test-output/Logs` for detailed execution traces.
 
 ## Test Data
 Test scenarios use data from JSON files in `src/test/resources` for addresses, credit cards, products, and more. You can modify these files to add or update test cases.
+
+## Logging
+All test actions and important events are logged using Log4j2, making it easier to debug, monitor, and maintain the test suite. Log files are stored in `test-output/Logs`.
 
 ## Reporting
 After running tests, detailed HTML reports are generated in the `test-output` folder for easy review of test outcomes.
@@ -61,4 +68,3 @@ Feel free to fork the repository and submit pull requests for improvements or ne
 
 ## License
 This project is for educational and demonstration purposes.
-
